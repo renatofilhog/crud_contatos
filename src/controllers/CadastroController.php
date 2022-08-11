@@ -59,10 +59,10 @@ class CadastroController extends Controller {
                 'nome' => $item[0]['nome'],
                 'telefone' => $item[0]['telefone'],
                 'cep' => $item[0]['cep'],
-                'logradouro' => $item[0]['telefone'],
-                'numero' => $item[0]['telefone'],
+                'logradouro' => $item[0]['logradouro'],
+                'numero' => $item[0]['numero'],
                 'bairro' => $item[0]['bairro'],
-                'complemento' => $item[0]['bairro'],
+                'complemento' => $item[0]['complemento'],
                 'estado' => $item[0]['estado'],
                 'id' => $item[0]['id']
             ]
